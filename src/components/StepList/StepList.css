@@ -1,0 +1,19 @@
+.step {
+    padding:8px 16px;
+    background-color: skyblue;;
+    max-width: 150px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+.step + .step {
+    margin-top: 5px;
+}
+
+.step-active {
+    background-color: bisque;
+}
+.step.selected{
+    background-color: rosybrown;;
+}

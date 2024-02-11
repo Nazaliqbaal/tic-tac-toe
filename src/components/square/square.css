@@ -1,0 +1,18 @@
+.square {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 44px;
+  border: 1px solid gray;
+  user-select: none;
+}
+
+.square.winner {
+ background-color: lightgreen;
+}
+.square:active {
+  background-color: gainsboro;
+}

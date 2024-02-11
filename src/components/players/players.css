@@ -1,0 +1,33 @@
+h4 {
+    margin: 10px;
+  }
+  #radio-btn {
+    margin: 50px;
+  }
+  #player-container {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+  }
+  #player1,
+  #player2 {
+    width: 60px;
+    
+    
+  }
+  #player-input {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;;
+    justify-content: space-around;
+  }
+ 
+  #player-text {
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    margin: 25px;
+  }
